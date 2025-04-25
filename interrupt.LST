@@ -1,0 +1,27 @@
+C51 COMPILER V8.12   INTERRUPT                                                             11/17/2023 08:28:36 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE INTERRUPT
+OBJECT MODULE PLACED IN interrupt.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.exe interrupt.c DB OE BR INCDIR(C:\SiLabs\MCU\Inc)
+
+line level    source
+
+   1          #include "si_toolchain.h"
+   2          #include <stdio.h>
+   3          
+   4          
+   5          void timer0_ISR (void) interrupt 1
+   6          {
+   7   1      
+   8   1              i++;
+*** ERROR C202 IN LINE 8 OF INTERRUPT.C: 'i': undefined identifier
+   9   1      
+  10   1              TF1 = 0;
+*** ERROR C202 IN LINE 10 OF INTERRUPT.C: 'TF1': undefined identifier
+  11   1      
+  12   1      } 
+  13          
+  14          
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  2 ERROR(S)

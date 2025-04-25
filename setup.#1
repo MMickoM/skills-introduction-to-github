@@ -1,0 +1,39 @@
+#include <stdio.h>
+//#include "C8051F120_defs.h"
+#include "setup.h"
+
+
+void Oscillator_Init (void)
+{
+
+	char SFRPAGE_SAVE = SFRPAGE;
+	SFRPAGE = CONFIG_PAGE;
+
+	OSCICN = 0x83;                  // Dozvoljen interni oscilator, na maksimalnoj frekvenciji
+	CLKSEL = 0x00;                  // Interni osc. kao sistemski klok
+
+
+	SFRPAGE = SFRPAGE_SAVE;
+
+}
+
+
+
+void Timer1_Init (void)
+{
+	char SFRPAGE_SAVE = SFRPAGE;
+	SFRPAGE = TIMER01_PAGE;
+
+	CKCON = 0x01;                 // Koristi sistemski klok / 4 (24500 kHz / 4 = 6125 kHz)
+	TMOD  = 0x20;                 // Timer 1 radi u mod 0
+
+
+	TCON |= 0x00;                 // Dozvola tajmera br.1
+
+	TH1   = 0x13;                 // 0x132 za 500ms (306 takta)
+	TL1  |= 0x02;
+
+	ET1   = 1;                    // Dozvola interapta od tajmera br.1
+
+	SFRPAGE = SFRPAGE_SAVE;
+} 

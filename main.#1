@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+//#include "C8051F120_defs.h"
+
+
+unsigned int i=0;
+unsigned char MyArray[100];
+
+
+
+void main(void)
+{
+
+	MyArray[i] = i;
+
+	if (MyArray[i] == 100)
+		i = 0;
+
+}
+

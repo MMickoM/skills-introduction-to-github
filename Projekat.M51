@@ -1,0 +1,14 @@
+BL51 BANKED LINKER/LOCATER V6.11              11/17/2023  08:28:36  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.11, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.o
+>> bj, D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj, D:\1. Bagmatic
+>>  NOVO LS\Controller\Moj projekat\interrupt.obj, D:\1. Bagmatic NOVO LS\Cont
+>> roller\Moj projekat\setup.obj TO D:\1. Bagmatic NOVO LS\Controller\Moj proj
+>> ekat\Projekat RS (256) PL (68) PW (78)
+
+
+*** FATAL ERROR L210: I/O ERROR ON INPUT FILE:
+    EXCEPTION 0021H: PATH OR FILE NOT FOUND
+    FILE: D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj

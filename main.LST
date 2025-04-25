@@ -1,0 +1,43 @@
+C51 COMPILER V8.12   MAIN                                                                  11/17/2023 08:28:36 PAGE 1   
+
+
+C51 COMPILER V8.12, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.exe main.c DB OE BR INCDIR(C:\SiLabs\MCU\Inc)
+
+line level    source
+
+   1          #include <stdio.h>
+   2          #include <string.h>
+   3          #include "C8051F120_defs.h"
+   4          
+   5          
+   6          unsigned int i=0;
+   7          unsigned char MyArray[100];
+   8          
+   9          
+  10          
+  11          void main(void)
+  12          {
+  13   1      
+  14   1              MyArray[i] = i;
+  15   1      
+  16   1              if (MyArray[i] == 100)
+  17   1                      i = 0;
+  18   1      
+  19   1      }
+  20          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     22    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =    102    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

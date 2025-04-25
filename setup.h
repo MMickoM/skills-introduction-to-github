@@ -1,0 +1,3 @@
+void Oscillator_Init (void);
+void Timer1_Init (void);
+

@@ -1,0 +1,11 @@
+
+BL51 BANKED LINKER/LOCATER V6.11 - SN: K1LSC-Y371WL
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2007
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\interrupt.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\setup.obj"  TO "D:\1. Bagmatic NOVO LS\Controller\Moj projekat\Projekat" RS(256) PL(68) PW(78) 
+
+*** FATAL ERROR L210: I/O ERROR ON INPUT FILE:
+    EXCEPTION 0021H: PATH OR FILE NOT FOUND
+    FILE: D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj

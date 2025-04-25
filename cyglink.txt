@@ -1,0 +1,4 @@
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\prvi.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\interrupt.obj",
+"D:\1. Bagmatic NOVO LS\Controller\Moj projekat\setup.obj"  TO "D:\1. Bagmatic NOVO LS\Controller\Moj projekat\Projekat" RS(256) PL(68) PW(78) 
